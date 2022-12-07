@@ -10,6 +10,6 @@ COPY . /app
 
 ENV PORT = 8080
 
-PORT 8080
+EXPOSE 8080
 
 CMD python3 main.py
